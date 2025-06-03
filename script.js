@@ -282,12 +282,12 @@ window.onload=function ()
         span.innerHTML=users[i].name;
         var apr=document.createElement("a");
         apr.style="top:14%;";
-        apr.className="section-card btn card pg-ad";
+        apr.className="btn pg-ad";
         apr.innerHTML='التقارير';
         apr.href  = "report.html?name=" + encodeURIComponent(users[i].name);
         var api=document.createElement("a");
         api.style="top:15%;";
-        api.className="section-card btn card pg-ad";
+        api.className="btn pg-ad";
         api.innerHTML='الجرد';
         api.href = "inventory.html?name=" + encodeURIComponent(users[i].name);
         div1.append(img);
